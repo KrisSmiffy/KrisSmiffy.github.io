@@ -1,7 +1,7 @@
 pacman::p_load(zoo, dplyr, forecast, ggplot2)
 #library(RColorBrewer)
 # Import data
-BOEData = read.csv('C:/Users/kriss/RProjects/Forecasting/Test1/BOE-Database_export.csv', header = TRUE)
+BOEData = read.csv('C:/Users/", header = TRUE)
 # Creating a quick plot to check
 ggplot() + 
   geom_line(data = BOEData, aes(x = Year, y = D1/1000000), color = "black") +
